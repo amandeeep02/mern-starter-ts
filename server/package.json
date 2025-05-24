@@ -1,0 +1,24 @@
+{
+    "scripts": {
+        "start": "nodemon",
+        "start_cron": "node backupCron.js",
+        "build": "tsc --build"
+    },
+    "author": "Amandeep Singh",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.5.0",
+        "express": "^5.1.0",
+        "http": "^0.0.1-security",
+        "mongoose": "^8.15.0"
+    },
+    "devDependencies": {
+        "@types/cors": "^2.8.18",
+        "@types/express": "^5.0.2",
+        "@types/node": "^22.15.20",
+        "nodemon": "^3.1.10",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.8.3"
+    }
+}
